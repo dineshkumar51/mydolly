@@ -1,0 +1,8 @@
+type Query {
+    
+  # Fetch all products
+  products: [Product!]
+
+  # Fetch a single product by ID
+  product(id: ID!): Product
+}

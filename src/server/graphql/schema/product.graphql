@@ -1,0 +1,8 @@
+type Product {
+  id: ID!                     # Unique identifier for the product
+  name: String!               # Name of the product
+  type: String!               # Type of the product
+  price: Float!               # Price of the product
+  manufacturer: Manufacturer! # Manufacturer details
+  quantity: Int!              # Quantity available
+}

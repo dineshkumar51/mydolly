@@ -1,0 +1,4 @@
+type Manufacturer {
+  name: String!   # Manufacturer's name
+  address: String! # Manufacturer's address
+}
